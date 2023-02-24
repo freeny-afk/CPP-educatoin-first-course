@@ -5,19 +5,18 @@
 using namespace std;
 
 int main() {
-	setlocale(LC_ALL, "Russian");
 	double a, b, c;
 	Triangle tr[3];
 
 	for (int i = 0; i < 3; i++) {
-		cout << "Введите a, b, c для треугольника № " << i + 1 << ":\n";
+		cout << "Define a, b, c of triangle " << i + 1 << ":\n";
 		cin >> a >> b >> c;
 		tr[i].set(a, b, c);
-		if (!(tr[i].exst_tr())) { cout << "Треугольник с такими параметрами не существует \n------------------------------\n\n\n" << endl; }
+		if (!(tr[i].exst_tr())) { cout << "Triangle with these parameters doesn't exist \n------------------------------\n\n\n" << endl; }
 		else {
 			tr[i].show();
-			cout << "Периметр треугольника № " << i + 1 << ": P = " << tr[i].perimetr() << "\n \n";
-			cout << "Площадь треугольника № " << i + 1 << ": S = " << tr[i].square() << "\n------------------------------\n\n\n";
+			cout << "Perimeter of triangle " << i + 1 << "is P = " << tr[i].perimetr() << "\n \n";
+			cout << "Square of triangle " << i + 1 << "is S = " << tr[i].square() << "\n------------------------------\n\n\n";
 		}
 		}
 	return 0;
