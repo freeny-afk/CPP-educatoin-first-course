@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="clsrealise.cpp" />
     <ClCompile Include="realisn.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="trclass.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

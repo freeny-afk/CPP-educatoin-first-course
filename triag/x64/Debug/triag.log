@@ -1,2 +1,17 @@
-﻿  realisn.cpp
-  triag.vcxproj -> C:\Users\Eliza\source\repos\triag\x64\Debug\triag.exe
+﻿  clsrealise.cpp
+C:\Users\Eliza\source\repos\triag\triag\clsrealise.cpp(2,16): error C2084: функция "bool Triangle::exst_tr(void)" уже имеет текст реализации
+C:\Users\Eliza\source\repos\triag\triag\trclass.h(11): message : см. предыдущее определение "exst_tr"
+C:\Users\Eliza\source\repos\triag\triag\clsrealise.cpp(5,16): error C2084: функция "void Triangle::set(double,double,double)" уже имеет текст реализации
+C:\Users\Eliza\source\repos\triag\triag\trclass.h(15): message : см. предыдущее определение "set"
+C:\Users\Eliza\source\repos\triag\triag\clsrealise.cpp(10,16): error C2084: функция "void Triangle::show(void)" уже имеет текст реализации
+C:\Users\Eliza\source\repos\triag\triag\trclass.h(18): message : см. предыдущее определение "show"
+C:\Users\Eliza\source\repos\triag\triag\clsrealise.cpp(14,18): error C2084: функция "double Triangle::perimetr(void)" уже имеет текст реализации
+C:\Users\Eliza\source\repos\triag\triag\trclass.h(21): message : см. предыдущее определение "perimetr"
+C:\Users\Eliza\source\repos\triag\triag\clsrealise.cpp(18,18): error C2084: функция "double Triangle::square(void)" уже имеет текст реализации
+C:\Users\Eliza\source\repos\triag\triag\trclass.h(24): message : см. предыдущее определение "square"
+  realisn.cpp
+C:\Users\Eliza\source\repos\triag\triag\realisn.cpp(1,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  Создание кода...
+C:\Users\Eliza\source\repos\triag\triag\trclass.h(13): error C4716: Triangle::exst_tr: должна возвращать значение
+C:\Users\Eliza\source\repos\triag\triag\trclass.h(22): error C4716: Triangle::perimetr: должна возвращать значение
+C:\Users\Eliza\source\repos\triag\triag\trclass.h(25): error C4716: Triangle::square: должна возвращать значение
