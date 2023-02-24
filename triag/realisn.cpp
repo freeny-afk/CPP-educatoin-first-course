@@ -26,12 +26,6 @@ public:
 		
 	}
 
-	double square() {
-		return sq = sqrt(pr * (pr - a) * (pr - b) * (pr - c));
-	}
-
-};
-
 int main() {
 	setlocale(LC_ALL, "Russian");
 	double a, b, c;
