@@ -1,4 +1,4 @@
-#include "trclass.h";
+#include "triangle.h";
 #include <iostream>
 #include <stdio.h>
 #include <cmath>
