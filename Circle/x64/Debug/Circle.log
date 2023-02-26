@@ -1,8 +1,4 @@
 ﻿  circle.cpp
 C:\Users\artem\source\repos\Circle\Circle\circle.cpp(1,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
-C:\Users\artem\source\repos\Circle\Circle\circle.cpp(15,25): warning C4244: return: преобразование "double" в "float", возможна потеря данных
-  main.cpp
-C:\Users\artem\source\repos\Circle\Circle\main.cpp(1,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
-  Создание кода...
-C:\Users\artem\source\repos\Circle\Circle\circle.cpp(21): error C4716: Circle::check_circle: должна возвращать значение
-C:\Users\artem\source\repos\Circle\Circle\circle.cpp(20): error C4716: Circle::triangle_in: должна возвращать значение
+C:\Users\artem\source\repos\Circle\Circle\circle.cpp(18,23): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+  Circle.vcxproj -> C:\Users\artem\source\repos\Circle\x64\Debug\Circle.exe

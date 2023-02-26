@@ -1,11 +1,10 @@
-#pragma once
 
 #include <iostream>
 using namespace std;
 
 class Circle {
 private:
-	float radius, x_center, y_center;
+	float radius, x_center, y_center, P, S, R;
 public:
 	Circle(float r, float x, float y);
 
