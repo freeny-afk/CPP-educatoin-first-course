@@ -24,6 +24,8 @@ int main() {
 	yn = 1;}
 	else { cout << endl << "First two fractionals are not equal \n"; }
 
+	if (m[0] > m[1]) cout << endl << "First fraction is bigger than second one \n"; else cout << endl << "Second fraction is bigger than first one \n";
+
 		cout << endl << "Incremented first fraction numerator = ";
 		inc[0] = ++m[0];
 		inc[0].show();

@@ -15,3 +15,4 @@ public:
 };
 rational operator +(rational ab1, rational ab2);
 bool operator == (rational d1, rational d2);
+bool operator > (rational ab1, rational ab2);

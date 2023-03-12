@@ -93,3 +93,7 @@ rational& rational::operator ++ (){
 bool operator == (rational ab1, rational ab2) {
 	return (ab1.geta() * ab2.getb() == ab2.geta() * ab1.getb());
 }
+
+bool operator > (rational ab1, rational ab2) {
+	return (ab1.geta() * ab2.getb() > ab2.geta() * ab1.getb());
+}
