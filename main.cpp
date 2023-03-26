@@ -5,8 +5,6 @@ using namespace std;
 
 int main()
 {
-	setlocale(LC_ALL, "Russian");
-
 	cone c1(3, 7);
 	cone c2(1, 2, 3, 5, 10);
 
@@ -18,7 +16,7 @@ int main()
 
 	int s;
 	double x, y, z, r, h;
-	cout << "How many vones you want to operate with: ";
+	cout << "How many cones you want to operate with: ";
 	cin >> s;
 	cone* cones = new cone[s];
 	cout << "\n";
@@ -26,7 +24,7 @@ int main()
 	cout << "\n";
 	for (int i = 0; i < s; i++)
 	{
-		cout << "Cone " << i + 1 << " : ";
+		cout << "Cone " << i + 1 << ": ";
 		cin >> x >> y >> z >> r >> h;
 		cones[i].setCoordinate(x, y, z);
 		cones[i].setRadius(r);
@@ -36,7 +34,7 @@ int main()
 	cout << "\n";
 	for (int i = 0; i < s; i++)
 	{
-		cout << "Cone " << i + 1 << " : \n";
+		cout << "Cone " << i + 1 << ": \n";
 		cout << cones[i] << "\n";
 		cout << "	S = " << cones[i].area() << "\n";
 		cout << "	V = " << cones[i].volume() << "\n";
@@ -50,11 +48,11 @@ int main()
 	cones2[4].setCoordinate(1, 0, 0); cones2[4].setRadius(2.71); cones2[4].setHeight(3.14);
 
 	cout << "\n";
-	cout << "Статический массив: ";
+	cout << "Static array: ";
 	cout << "\n";
 	for (int i = 0; i < 5; i++)
 	{
-		cout << "Данные конуса номер " << i + 1 << " : \n";
+		cout << "Cone " << i + 1 << ": \n";
 		cout << cones[i] << "\n";
 		cout << "	S = " << cones2[i].area() << "\n";
 		cout << "	V = " << cones2[i].volume() << "\n";
